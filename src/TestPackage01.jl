@@ -18,4 +18,8 @@ function trapezoidal(a, b, f, N=100000)
     return res
 end
 
+function testdocumentation()
+    print("Test done")
+end
+
 end # module ExamplePackage
