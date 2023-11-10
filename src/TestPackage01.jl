@@ -2,6 +2,10 @@ module TestPackage01
 
 export trapezoidal
 
+
+"""
+calculates trapezoidal rule for calculating integral
+"""
 function trapezoidal(a, b, f, N=100000)
     res = zeros(length(f(0)))
     delta_x = (b-a)/N
